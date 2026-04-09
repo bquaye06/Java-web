@@ -710,6 +710,11 @@
       const choiceInputs = Array.from(item.querySelectorAll('.mock-choice-input'));
       choiceInputs.forEach((input) => {
         input.addEventListener('change', () => {
+          if (!currentMock || currentMock.submitted) return;
+          if (currentMock.selectedAnswers[itemIndex] !== null) {
+            return;
+          }
+
           const selectedAnswer = input.value;
           const currentItem = currentMock?.items[itemIndex];
           if (!currentItem) return;
@@ -726,6 +731,11 @@
           if (status) {
             status.textContent = isCorrect ? 'Correct' : 'Wrong';
           }
+
+          // Lock this question after first selection until reset.
+          choiceInputs.forEach((choice) => {
+            choice.disabled = true;
+          });
 
           const doneLine = item.querySelector('.mock-score-line');
           if (doneLine) doneLine.hidden = false;
@@ -769,10 +779,10 @@
     });
 
     const count = currentMock.items.length;
-    setMockStatus(`${autoSubmitted ? 'Time up. ' : ''}Choose one option per question. The answer shows immediately after selection, then save your score.`);
+    setMockStatus(`${autoSubmitted ? 'Time up. ' : ''}Choose one option per question. Each choice is final and cannot be changed unless you reset the exam.`);
     setMockTimerText('Time left: 00:00');
     if (examMockNote) {
-      examMockNote.textContent = 'Choose an option to reveal the correct answer and show whether it is correct or wrong.';
+      examMockNote.textContent = 'Each question locks after your first selection. Use Reset Mock Test to unlock and try again.';
     }
 
     return count;
@@ -842,7 +852,7 @@
 
     setMockStatus(`Mock test started with ${count} past-paper questions. Choose an option to reveal the answer and feedback.`);
     if (examMockNote) {
-      examMockNote.textContent = 'Answers are hidden until you select an option. After selection, the correct answer is shown immediately.';
+      examMockNote.textContent = 'Answers are hidden until you select an option. After your first selection, that question is locked until reset.';
     }
 
     const tick = () => {
