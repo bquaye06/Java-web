@@ -41,62 +41,62 @@
   ];
 
   const PDF_EXAM_ITEMS = [
-    { sectionId: 'exam-pdf-objectives', q: 'What is the main method signature in Java?', a: 'public static void main(String[] args)' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the output of a program that prints Hello, World!', a: 'Hello, World!' },
-    { sectionId: 'exam-pdf-objectives', q: 'Choose the correct variable declaration in Java.', a: 'All of the listed declarations are valid in the question.' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which data type can store decimal values?', a: 'double' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the default value of an uninitialized int variable?', a: '0' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the output of System.out.println(5 + "5")?', a: '55' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which of the following is NOT a Java keyword?', a: 'define' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which tool is used to take input from the user in Java?', a: 'Scanner' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which loop is best suited for a known number of repetitions?', a: 'for loop' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the output of integer division 5 / 2?', a: '2' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the correct way to declare an array in Java?', a: 'int[] arr = new int[5];' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which is a valid if condition in Java?', a: 'if (x == 5)' },
-    { sectionId: 'exam-pdf-objectives', q: 'How do you create a constant variable in Java?', a: 'final int x = 10;' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the correct way to write a comment in Java?', a: 'Use // for single-line comments and /* ... */ for block comments.' },
-    { sectionId: 'exam-pdf-objectives', q: 'What will System.out.println(3 == 3.0) output?', a: 'true' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which OOP principles are used in Java?', a: 'Encapsulation, Inheritance, Polymorphism, and Abstraction' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which access modifier makes a variable accessible only within the same class?', a: 'private' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which method converts a String to an int?', a: 'Integer.parseInt()' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the output of 10 % 3?', a: '1' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which statement correctly creates an instance of a class?', a: 'ClassName obj = new ClassName();' },
-    { sectionId: 'exam-pdf-objectives', q: 'How can a method return multiple values in Java?', a: 'Using an array, object, List, or Map' },
-    { sectionId: 'exam-pdf-objectives', q: 'What happens if break is omitted in a switch statement?', a: 'Fall-through occurs' },
-    { sectionId: 'exam-pdf-objectives', q: 'What will be the output of Math.max(10, 20)?', a: '20' },
-    { sectionId: 'exam-pdf-objectives', q: 'How do you define a constructor in Java?', a: 'Same name as the class and no return type' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the default value of a boolean variable?', a: 'false' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which keyword is used to inherit a class?', a: 'extends' },
-    { sectionId: 'exam-pdf-objectives', q: 'What is the return type of main()? ', a: 'void' },
-    { sectionId: 'exam-pdf-objectives', q: 'How do you compare two strings in Java?', a: 'Use equals() or compareTo()' },
-    { sectionId: 'exam-pdf-objectives', q: 'What does the ternary expression 5 > 3 ? "Yes" : "No" print?', a: 'Yes' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which statement about Java is true?', a: 'Java is platform-independent' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which is a correct char declaration?', a: "char ch = 'A';" },
-    { sectionId: 'exam-pdf-objectives', q: 'What will x += 5 do when x is 10?', a: 'Set x to 15' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which of these correctly defines a method in Java?', a: 'public void myMethod() {}' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which of the following is NOT a primitive data type?', a: 'String' },
-    { sectionId: 'exam-pdf-objectives', q: 'What will System.out.println(10 == 10.0) output?', a: 'true' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which keyword is used to create an interface?', a: 'interface' },
-    { sectionId: 'exam-pdf-objectives', q: 'What happens if you divide an integer by zero?', a: 'Runtime exception' },
-    { sectionId: 'exam-pdf-objectives', q: 'Which operator compares two values in Java?', a: '==' },
-    { sectionId: 'exam-pdf-objectives', q: 'Given i = 1, what are i and j after int j = --i?', a: 'i = 0 and j = 0' },
-    { sectionId: 'exam-pdf-objectives', q: 'What will System.out.println(s1 == s2) print for two separate but equal Strings?', a: 'false' },
+    { sectionId: 'exam-pdf-objectives', q: 'You need to write a program with a main entry point that can be executed from the command line. What is the correct method signature?', a: 'public static void main(String[] args)' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your application, you call System.out.println("Hello, World!");. What appears on the console?', a: 'Hello, World!' },
+    { sectionId: 'exam-pdf-objectives', q: 'You need to store a student\'s age in a variable. Which is a valid declaration?', a: 'int age = 25;' },
+    { sectionId: 'exam-pdf-objectives', q: 'Your application calculates product prices with cents. Which data type should you use for precise decimal storage?', a: 'double' },
+    { sectionId: 'exam-pdf-objectives', q: 'In a class, an int field is declared but not initialized. What is its default value?', a: '0' },
+    { sectionId: 'exam-pdf-objectives', q: 'What does your application output when executing System.out.println(5 + "5")?', a: '55' },
+    { sectionId: 'exam-pdf-objectives', q: 'While coding, you encounter a word that looks like a keyword. Which of these is NOT a reserved Java keyword?', a: 'define' },
+    { sectionId: 'exam-pdf-objectives', q: 'You need to build an interactive console application that reads user input from the keyboard. What class should you use?', a: 'Scanner' },
+    { sectionId: 'exam-pdf-objectives', q: 'Your application needs to repeat a block of code 10 times. Which loop structure is most appropriate?', a: 'for loop' },
+    { sectionId: 'exam-pdf-objectives', q: 'You execute integer division in your calculator app with the expression 5 / 2. What is the result?', a: '2' },
+    { sectionId: 'exam-pdf-objectives', q: 'You need to store 5 student scores that you will access repeatedly. How do you properly declare this structure?', a: 'int[] arr = new int[5];' },
+    { sectionId: 'exam-pdf-objectives', q: 'In an authentication system, you check if a user\'s ID equals 5. What is the correct condition?', a: 'if (x == 5)' },
+    { sectionId: 'exam-pdf-objectives', q: 'You need to define a configuration value that cannot be changed after initialization. How do you declare it?', a: 'final int x = 10;' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your code documentation, you want to add a single-line explanation. What is the correct syntax?', a: '// This is a comment' },
+    { sectionId: 'exam-pdf-objectives', q: 'In a condition check, you execute System.out.println(3 == 3.0). What does your application print?', a: 'true' },
+    { sectionId: 'exam-pdf-objectives', q: 'When designing a Banking class, you want to prevent direct access to the account balance field from other classes. Which principle are you applying?', a: 'Encapsulation' },
+    { sectionId: 'exam-pdf-objectives', q: 'In a multi-class project, which access modifier restricts a variable to only be accessible within its own class?', a: 'private' },
+    { sectionId: 'exam-pdf-objectives', q: 'Your application receives user input as a string (e.g., "12345") and needs to convert it to an integer. Which method do you call?', a: 'Integer.parseInt()' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your calculation module, you compute 10 % 3 to find the remainder. What value does your app store?', a: '1' },
+    { sectionId: 'exam-pdf-objectives', q: 'You need to create a new instance of the Student class and assign it to a variable. What is the correct syntax?', a: 'ClassName obj = new ClassName();' },
+    { sectionId: 'exam-pdf-objectives', q: 'Your method needs to return a person\'s name, age, and address as a group. What is the most practical approach?', a: 'Return a custom object or array' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your switch statement, you forgot to add a break after case 2. What happens when case 2 matches?', a: 'Fall-through occurs' },
+    { sectionId: 'exam-pdf-objectives', q: 'Your application calls Math.max(10, 20) to find the larger of two values. What does it return?', a: '20' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your Employee class, you need to initialize objects with specific values when they are created. What special method do you define?', a: 'Same name as the class and no return type' },
+    { sectionId: 'exam-pdf-objectives', q: 'In a conditional branch, you check if a flag is activated. What is the default value of a boolean variable?', a: 'false' },
+    { sectionId: 'exam-pdf-objectives', q: 'You are designing a hierarchy where a Manager class needs all features of an Employee class. Which keyword enables this?', a: 'extends' },
+    { sectionId: 'exam-pdf-objectives', q: 'Your program\'s entry point uses a method called main(). What is its return type?', a: 'void' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your string comparison logic, you need to check if two String variables contain the exact same text. Which method is correct?', a: 'equals()' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your business logic, you evaluate the expression 5 > 3 ? "Yes" : "No" in a ternary operator. What does this print?', a: 'Yes' },
+    { sectionId: 'exam-pdf-objectives', q: 'When asked what makes Java unique among programming languages, which statement is accurate?', a: 'Java is platform-independent' },
+    { sectionId: 'exam-pdf-objectives', q: 'You need to store a single character like the grade \'A\'. How do you declare this variable?', a: "char ch = 'A';" },
+    { sectionId: 'exam-pdf-objectives', q: 'In your application loop, you increase x by 5 using the compound operator. If x starts at 10, what is the result?', a: 'Set x to 15' },
+    { sectionId: 'exam-pdf-objectives', q: 'When writing a utility class, which of these correctly defines a public method that returns nothing?', a: 'public void myMethod() {}' },
+    { sectionId: 'exam-pdf-objectives', q: 'In a data type comparison, which of these is NOT a primitive type like int, double, or boolean?', a: 'String' },
+    { sectionId: 'exam-pdf-objectives', q: 'In a comparison check, System.out.println(10 == 10.0) is called. Based on type promotion, what prints?', a: 'true' },
+    { sectionId: 'exam-pdf-objectives', q: 'You need to create a contract that multiple classes must implement. Which keyword defines this structure?', a: 'interface' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your financial application, you accidentally divide an integer by zero. What exception does Java throw?', a: 'Runtime exception' },
+    { sectionId: 'exam-pdf-objectives', q: 'When evaluating user age eligibility (is user >= 18), which operator compares these two numeric values?', a: '==' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your algorithm, you start with int i = 1, then execute int j = --i;. What are the final values of both variables?', a: 'i = 0 and j = 0' },
+    { sectionId: 'exam-pdf-objectives', q: 'In your application, you have two String variables s1 and s2 created with literals in the code. Both have the value "hello". What does s1 == s2 print due to memory allocation?', a: 'false' },
 
-    { sectionId: 'exam-pdf-short', q: 'Rewrite the code to assign the maximum value to maxValue using Math.max.', a: 'int maxValue = Math.max(20, Math.max(15, 50));' },
-    { sectionId: 'exam-pdf-short', q: 'Write Java code to find the intersection of sets A and B and store it in B.', a: 'B.retainAll(A);' },
-    { sectionId: 'exam-pdf-short', q: 'Write Java code that subtracts set B from set A.', a: 'A.removeAll(B);' },
-    { sectionId: 'exam-pdf-short', q: 'Write Java code that finds the union of set A and set B.', a: 'A.addAll(B);' },
-    { sectionId: 'exam-pdf-short', q: 'The finally block in exception handling only executes when the exception occurs. True or false?', a: 'False' },
-    { sectionId: 'exam-pdf-short', q: 'Given int x = 89, what is the output of the first boolean expression in Section B?', a: 'false' },
-    { sectionId: 'exam-pdf-short', q: 'Given int x = 89, what is the output of the second boolean expression in Section B?', a: 'true' },
-    { sectionId: 'exam-pdf-short', q: 'Fill in the blank: the ______ block contains statements that may cause an exception.', a: 'try' },
-    { sectionId: 'exam-pdf-short', q: 'Explain the difference between while and do-while loops.', a: 'while checks the condition before the loop body; do-while executes the body first and checks afterward.' },
-    { sectionId: 'exam-pdf-short', q: 'Explain the difference between a single-dimensional array and an ArrayList.', a: 'An array has a fixed size; an ArrayList grows and shrinks dynamically.' },
+    { sectionId: 'exam-pdf-short', q: 'In your grade calculation app, you have three test scores (20, 15, 50). Write code to find the maximum using Math.max.', a: 'int maxValue = Math.max(20, Math.max(15, 50));' },
+    { sectionId: 'exam-pdf-short', q: 'Your application maintains two Sets of student IDs: Set A and Set B. Write code to find which IDs appear in both sets.', a: 'B.retainAll(A);' },
+    { sectionId: 'exam-pdf-short', q: 'You need to remove from Set A all students who are already in Set B (maybe because they transferred). Write the command.', a: 'A.removeAll(B);' },
+    { sectionId: 'exam-pdf-short', q: 'Your application needs to combine all students from Set A with new students in Set B into one list. What code accomplishes this?', a: 'A.addAll(B);' },
+    { sectionId: 'exam-pdf-short', q: 'In exception handling, the finally block only executes when an exception is caught and handled. True or false?', a: 'False' },
+    { sectionId: 'exam-pdf-short', q: 'In your age verification system, int x = 89. What does the condition (x > 50 && x < 100) evaluate to?', a: 'true' },
+    { sectionId: 'exam-pdf-short', q: 'Your application checks if a number is even. Given int x = 89, what is the result of (x % 2 == 0)?', a: 'false' },
+    { sectionId: 'exam-pdf-short', q: 'Fill in the blank: In exception handling, the ______ block contains statements that might throw an exception.', a: 'try' },
+    { sectionId: 'exam-pdf-short', q: 'Explain the practical difference between a while loop and a do-while loop in your application flow.', a: 'while checks the condition before the loop body; do-while executes the body first and checks afterward.' },
+    { sectionId: 'exam-pdf-short', q: 'Describe how an array differs from an ArrayList when you\'re building a dynamic collection in an application.', a: 'An array has a fixed size; an ArrayList grows and shrinks dynamically.' },
 
     { sectionId: 'exam-pdf-code', q: 'Correct Mary’s multidimensional array code and identify the errors.', a: 'Use String[][] dimArray = new String[3][2]; and assign names/marks with valid indices.' },
-    { sectionId: 'exam-pdf-code', q: 'Write a for-loop that prints only the marks of each student from the array.', a: 'for (int i = 0; i < dimArray.length; i++) System.out.println(dimArray[i][1]);' },
-    { sectionId: 'exam-pdf-code', q: 'Write a loop that computes the sum of all numbers between 2 and 100 that are multiples of 5 or 7.', a: 'Use a for-loop from 2 to 100 with an if condition checking i % 5 == 0 || i % 7 == 0.' },
-    { sectionId: 'exam-pdf-code', q: 'Write a conditional statement with three branches that sets y to 2, -3, or 0 depending on x.', a: 'if (x > 0) y = 2; else if (x < 0) y = -3; else y = 0;' }
+    { sectionId: 'exam-pdf-code', q: 'Your application needs to display only student marks. Write a for-loop that prints the second column (marks) from a 2D student array.', a: 'for (int i = 0; i < dimArray.length; i++) System.out.println(dimArray[i][1]);' },
+    { sectionId: 'exam-pdf-code', q: 'Write a loop that computes the sum of all numbers from 2 to 100 that are divisible by either 5 or 7.', a: 'Use a for-loop from 2 to 100 with an if condition checking i % 5 == 0 || i % 7 == 0.' },
+    { sectionId: 'exam-pdf-code', q: 'In a grading system, set y to 2 for passing (x > 0), -3 for failing (x < 0), and 0 for zero scores. Write the conditional with three branches.', a: 'if (x > 0) y = 2; else if (x < 0) y = -3; else y = 0;' }
   ];
 
   function makeBasicsPractice() {
@@ -563,111 +563,227 @@
     return copy;
   }
 
-  function normalizeTokenSet(text) {
-    return new Set(
-      String(text)
-        .toLowerCase()
-        .replace(/[^a-z0-9()_]+/g, ' ')
-        .split(' ')
-        .map((t) => t.trim())
-        .filter((t) => t.length > 1)
-    );
-  }
-
-  function pickKeywordDistractors(correctAnswer) {
-    const keywordPool = [
-      'public', 'private', 'protected', 'static', 'final', 'class', 'interface', 'extends', 'implements',
-      'Scanner', 'PrintWriter', 'try', 'catch', 'finally', 'while', 'do-while', 'for', 'switch',
-      'Integer.parseInt()', 'equals()', 'compareTo()', 'HashMap', 'ArrayList', 'Set'
-    ];
-    return shuffle(keywordPool.filter((k) => k !== correctAnswer)).slice(0, 4);
-  }
-
-  function numericDistractors(correctAnswer) {
-    const n = Number(correctAnswer);
-    if (!Number.isFinite(n)) return [];
-    const vals = new Set([n - 1, n + 1, n - 2, n + 2, n + 10, n - 10]);
-    vals.delete(n);
-    return Array.from(vals).map((x) => String(x));
-  }
-
-  function booleanDistractors(correctAnswer) {
-    const lc = String(correctAnswer).toLowerCase();
-    if (lc !== 'true' && lc !== 'false') return [];
-    return lc === 'true'
-      ? ['false', 'Compilation error', 'Runtime exception', 'No output']
-      : ['true', 'Compilation error', 'Runtime exception', 'No output'];
-  }
-
-  function syntaxDistractors(correctAnswer) {
-    const s = String(correctAnswer);
-    if (!/[();={}\[\]]/.test(s) && !/\b(public|private|class|new|int|String|char|void)\b/.test(s)) {
-      return [];
-    }
-    const variants = new Set();
-    if (s.includes('main')) {
-      variants.add('public void main(String[] args)');
-      variants.add('public static void Main(String[] args)');
-      variants.add('public static void main()');
-      variants.add('private static void main(String[] args)');
-    }
-    if (s.includes('parseInt')) {
-      variants.add('String.toInt("123")');
-      variants.add('Integer.toString("123")');
-      variants.add('parseInteger("123")');
-      variants.add('convertToInt("123")');
-    }
-    if (s.includes('arr') || s.includes('int[') || s.includes('new int')) {
-      variants.add('int arr = new int[5];');
-      variants.add('int arr = [5];');
-      variants.add('array<int> arr = new array<int>[5];');
-      variants.add('int arr(5);');
-    }
-    if (variants.size < 4) {
-      variants.add(`${s};`);
-      variants.add(s.replace(/;/g, ''));
-      variants.add(s.replace(/public/g, 'private'));
-      variants.add(s.replace(/static/g, ''));
-    }
-    return Array.from(variants).filter((v) => v !== s);
-  }
-
-  function semanticDistractors(correctAnswer) {
-    const correctTokens = normalizeTokenSet(correctAnswer);
-    const candidates = answerPool
-      .filter((answer) => answer !== correctAnswer)
-      .map((answer) => {
-        const tokens = normalizeTokenSet(answer);
-        let overlap = 0;
-        correctTokens.forEach((token) => {
-          if (tokens.has(token)) overlap += 1;
-        });
-        return { answer, overlap };
-      })
-      .filter((x) => x.overlap > 0)
-      .sort((a, b) => b.overlap - a.overlap)
-      .slice(0, 20)
-      .map((x) => x.answer);
-    return candidates;
-  }
-
   function buildMockChoices(correctAnswer) {
-    const collected = new Set();
-
-    [
-      ...numericDistractors(correctAnswer),
-      ...booleanDistractors(correctAnswer),
-      ...syntaxDistractors(correctAnswer),
-      ...semanticDistractors(correctAnswer),
-      ...pickKeywordDistractors(correctAnswer)
-    ].forEach((option) => {
-      if (option && option !== correctAnswer) {
-        collected.add(option);
+    const distractors = [];
+    const ans = String(correctAnswer).toLowerCase().trim();
+    const answerPoolLower = answerPool.map(a => String(a).toLowerCase().trim());
+    
+    // Common misconceptions and realistic alternatives
+    const commonMisconceptions = {
+      'public static void main(string[] args)': [
+        'public void main(String[] args)',
+        'static void main(String[] args)',
+        'public static void Main(String[] args)',
+        'public static int main(String[] args)'
+      ],
+      'double': [
+        'float',
+        'int',
+        'decimal',
+        'float (with double precision)'
+      ],
+      'scanner': [
+        'InputReader',
+        'BufferedReader',
+        'Console',
+        'System.in directly'
+      ],
+      'integer.parseint()': [
+        'Integer.valueOf()',
+        'String.toInt()',
+        'int(String)',
+        'Integer.parseInt(String) with wrong parameters'
+      ],
+      'final int x = 10': [
+        'const int x = 10',
+        'static int x = 10',
+        'private int x = 10',
+        'int final x = 10'
+      ],
+      'extends': [
+        'implements',
+        'inherits from',
+        'super',
+        'parent'
+      ],
+      'equals()': [
+        '==',
+        'compareTo()',
+        '.equals(String)',
+        'equalsIgnoreCase() (for case-sensitive compare)'
+      ],
+      'private': [
+        'protected',
+        'internal',
+        'package-private',
+        'default'
+      ],
+      'for loop': [
+        'while loop',
+        'foreach loop',
+        'do-while loop',
+        'Iterator'
+      ],
+      'interface': [
+        'abstract class',
+        'class',
+        'contract',
+        'implements'
+      ],
+      'a runtime exception is thrown': [
+        'The result is 0',
+        'The program returns -1',
+        'It silently returns infinity',
+        'It returns Double.INFINITY'
+      ],
+      'int[] arr = new int[5]': [
+        'int arr[5]',
+        'int[] arr = {1,2,3,4,5}',
+        'array<int> arr(5)',
+        'List<Integer> arr = new List[5]'
+      ],
+      'if (x == 5)': [
+        'if (x = 5)',
+        'if x == 5',
+        'if (x equals 5)',
+        'if (x eq 5)'
+      ],
+      'true': [
+        'false',
+        '1',
+        'yes',
+        'true (boolean value 1)'
+      ],
+      'false': [
+        'true',
+        '0',
+        'no',
+        'null'
+      ],
+      '55': [
+        '10',
+        '5',
+        'error',
+        'undefined'
+      ],
+      '15': [
+        '10',
+        '5',
+        '20',
+        '110'
+      ],
+      '1': [
+        '0',
+        '3.33',
+        '2',
+        '10'
+      ],
+      '2': [
+        '2.5',
+        '3',
+        '0',
+        'undefined'
+      ],
+      'void': [
+        'null',
+        'int',
+        'nothing',
+        'boolean'
+      ],
+      's = new student()': [
+        's = Student()',
+        'Student s = new Student',
+        'new Student() s',
+        's = Student.new()'
+      ],
+      'encapsulation': [
+        'inheritance',
+        'polymorphism',
+        'abstraction',
+        'modularity'
+      ],
+      'try': [
+        'catch',
+        'finally',
+        'attempt',
+        'handle'
+      ],
+      'string[][] array = new string[3][2]': [
+        'String[3][2] array',
+        'String array = new String[3][2]',
+        'String array[][] = new String[3][2]',
+        'new String[3][2] array'
+      ],
+      'array[2][1]': [
+        'array[1][2]',
+        'array.get(2,1)',
+        'array[2, 1]',
+        'array(2)(1)'
+      ]
+    };
+    
+    // Numeric answer (e.g., "7", "2", "55")
+    if (/^\d+$/.test(String(correctAnswer))) {
+      const n = Number(correctAnswer);
+      const offsets = [1, -1, 2, -2, 3, -3, 10, -10, n * 2, Math.floor(n / 2)];
+      offsets.forEach((offset) => {
+        const val = n + offset;
+        if (val >= 0 && val !== n && !answerPoolLower.includes(String(val).toLowerCase()) && distractors.length < 4) {
+          distractors.push(String(val));
+        }
+      });
+    } 
+    // Boolean answer (e.g., "true", "false")
+    else if (ans === 'true' || ans === 'false') {
+      const opposites = ans === 'true' ? ['false', '0', 'no', 'False'] : ['true', '1', 'yes', 'True'];
+      opposites.forEach(opt => {
+        if (opt.toLowerCase() !== ans && !answerPoolLower.includes(opt.toLowerCase()) && distractors.length < 4) {
+          distractors.push(opt);
+        }
+      });
+    } 
+    // Check if there are common misconceptions for this answer
+    else {
+      const key = ans.replace(/[(){}[\]';,\s]/g, '').substring(0, 20);
+      let options = null;
+      
+      // Find matching misconceptions
+      for (const [pattern, alternatives] of Object.entries(commonMisconceptions)) {
+        if (String(correctAnswer).toLowerCase().includes(pattern.substring(0, 15)) || 
+            pattern.includes(key.substring(0, 10))) {
+          options = alternatives;
+          break;
+        }
       }
-    });
-
-    const distractors = shuffle(Array.from(collected)).slice(0, 4);
-    return shuffle([correctAnswer, ...distractors]);
+      
+      if (options) {
+        options.forEach(opt => {
+          if (opt.toLowerCase() !== ans && !answerPoolLower.includes(opt.toLowerCase()) && distractors.length < 4) {
+            distractors.push(opt);
+          }
+        });
+      } else {
+        // Fallback: use generic realistic alternatives
+        const fallbacks = [
+          'A similar but incorrect syntax',
+          'Correct syntax but wrong parameter',
+          'Confusing with another language',
+          'A common student misconception'
+        ];
+        fallbacks.forEach(opt => {
+          if (distractors.length < 4) distractors.push(opt);
+        });
+      }
+    }
+    
+    // Ensure we have 4 unique distractors
+    while (distractors.length < 4) {
+      const num = distractors.filter(d => /^\d+$/.test(d)).length;
+      if (num < 2) distractors.push(`${Number(distractors.filter(d => /^\d+$/.test(d))[0] || 0) + 1}`);
+      else distractors.push(`Alternative option ${distractors.length}`);
+    }
+    
+    return shuffle([correctAnswer, ...distractors.slice(0, 4)]);
   }
 
   function renderMockBank(items, revealed = false) {
